@@ -1,0 +1,5 @@
+Name: Abylai
+Surname: Zhumabek
+Group: IT2-2306
+Student ID: 38304
+Course: DevOps
