@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    image: zhumabek-abylai-devops
+    container_name: zhumabek-abylai-container
+    environment:
+      STUDENT_NAME: Abylai
+      STUDENT_SURNAME: Zhumabek
+      STUDENT_GROUP: IT2-2306
+      STUDENT_ID: "38304"
+    ports:
+      - "5000:8080"
+    restart: unless-stopped
