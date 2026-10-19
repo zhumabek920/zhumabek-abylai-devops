@@ -29,3 +29,8 @@ docker run -d -p 5000:8080 --name zhumabek-abylai-container zhumabek-abylai-devo
 curl http://localhost:5000
 docker compose up -d && docker compose down
 ```
+
+## Git workflow
+- `main` — stable branch, used by Jenkins for builds
+- `development` — branch for new changes and testing
+- Changes are committed to `development` and then merged into `main`
